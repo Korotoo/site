@@ -1,0 +1,62 @@
+/* Les styles CSS */
+body {
+    font-family: Verdana;
+    font-size: 18;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+#com {
+    position: absolute; /* Positionnement absolu par rapport au body */
+    top: 0;
+    left: 0;
+    width: 102px; /* ou la taille que vous souhaitez pour votre logo */
+    height: auto; /* pour maintenir le rapport d'aspect de l'image */
+}
+
+p {
+    color: #ffffff;
+}
+
+h2{
+    color: rgb(255, 230, 0);
+    margin: auto;
+    font-family: Verdana;
+    font-size: 18;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(244, 217, 16);
+    padding: 10px;
+    text-align: center;
+}
+.navigation {
+    background-color: rgb(188, 188, 23);
+    overflow: hidden;
+}
+.navigation a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.navigation a:hover {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+}
+.map-container {
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(188, 188, 23);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
