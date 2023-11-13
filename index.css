@@ -63,3 +63,35 @@ hr{
 .map-container {
     padding: 20px;
 }
+
+#cont2{
+    text-align: center;
+    margin-top: 50px;
+    color: yellow;
+}
+
+/* Styles pour le formulaire de contact */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
