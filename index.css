@@ -11,7 +11,7 @@ body {
     position: absolute; /* Positionnement absolu par rapport au body */
     top: 0;
     left: 0;
-    width: 102px; /* ou la taille que vous souhaitez pour votre logo */
+    width: 130px; /* ou la taille que vous souhaitez pour votre logo */
     height: auto; /* pour maintenir le rapport d'aspect de l'image */
 }
 
@@ -28,16 +28,16 @@ h2{
 
 .header {
     background-color: rgb(255, 255, 255);
-    color: rgb(244, 217, 16);
+    color: rgb(255, 230, 0);
     padding: 10px;
     text-align: center;
 }
 .navigation {
-    background-color: rgb(188, 188, 23);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .navigation a {
-    float: left;
+    float:left;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
@@ -45,14 +45,14 @@ h2{
     transition: background-color 0.3s;
 }
 .navigation a:hover {
-    background-color: #ffffff;
+    background-color: #aca8a8;
     color: rgb(255, 255, 255);
 }
 .map-container {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(188, 188, 23);
+    background-color: rgb(255, 230, 0);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
