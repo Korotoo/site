@@ -1,7 +1,7 @@
 /* Les styles CSS */
 body {
     font-family: Verdana;
-    font-size: 18;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     background-color: #000000;
@@ -24,6 +24,7 @@ h2 {
     margin: auto;
     font-family: Verdana;
     font-size: 18;
+    text-align: center;
 }
 
 hr{
@@ -94,4 +95,97 @@ hr{
     background-color: yellow;
     color: rgb(0, 0, 0);
     cursor: pointer;
+}
+
+#film {
+    width: 600px; /* Remplacez la valeur par la largeur souhaitée */
+    height: auto; /* Pour maintenir le rapport d'aspect de l'image */
+    float: left; /* Pour positionner l'image à gauche */
+}
+
+.film-content {
+    overflow: hidden; /* Clearfix pour éviter le collapsage du conteneur */
+}
+
+.film-text {
+    margin-left: 50px; /* Espace entre l'image et le texte à droite */
+    padding-right: 20%;
+}
+ 
+.information{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* 100% de la hauteur de la vue */
+}
+
+.information2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.colorr{
+    color: yellow;
+}
+
+
+.critique {
+    margin-bottom: 20px;
+}
+
+.etoiles {
+    color: #FFD700; /* Couleur jaune pour les étoiles */
+}
+
+.moyenne {
+    margin-top: 20px;
+}
+
+.lien-bouton {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.critique {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.etoiles {
+    color: #FFD700; /* Couleur jaune pour les étoiles */
+    text-align: center;
+
+}
+
+.moyenne {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.lien-bouton {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+label {
+
+    color: #ffffff;
+}
+
+#Liste {
+
+    color: #ffffff;
 }
